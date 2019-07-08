@@ -21,6 +21,10 @@ img.id-elliot {
     width: 99%;
 }
 
+img.modalImg {
+    width: 100%;
+}
+
 div.btnWrapper {
     margin-top: 20px;
 }
@@ -30,4 +34,8 @@ button.btnWrapperStuff {
     color: white;
     display: block;
     margin: auto;
+}
+
+div.modalFormWrapper {
+    padding: 1em;
 }
