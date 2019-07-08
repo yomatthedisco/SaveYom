@@ -20,3 +20,14 @@
 img.id-elliot {
     width: 99%;
 }
+
+div.btnWrapper {
+    margin-top: 20px;
+}
+
+button.btnWrapperStuff {
+    background-color: red;
+    color: white;
+    display: block;
+    margin: auto;
+}
