@@ -25,6 +25,13 @@ img.modalImg {
     width: 100%;
 }
 
+img.img-center {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    width: 200px;
+}
+
 div.btnWrapper {
     margin-top: 20px;
 }
@@ -38,4 +45,12 @@ button.btnWrapperStuff {
 
 div.modalFormWrapper {
     padding: 1em;
+}
+
+button.btnCenter {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 50%;
 }
