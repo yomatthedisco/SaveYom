@@ -3,6 +3,12 @@ $colors: (
     accent: #FFF6BB,
 );
 
+$padding: 15px;
+
+@function color($color-name) {
+    @return map-get($colors, $color-name)
+}
+
 body, html {
     height: 100%;
 }
@@ -13,10 +19,16 @@ body {
 
     #bg {
         clip-path: polygon(100% 0, 100% 81%, 44% 100%, 0 100%, 0 0);
-        background-color: map-get($colors, primary);
+        background-color: color(primary);
         height: 100%;
         width: 100%;
         position: absolute;
         z-index: -1;
+    }
+
+    header a {
+        color: white;
+        text-decoration: none;
+
     }
 }

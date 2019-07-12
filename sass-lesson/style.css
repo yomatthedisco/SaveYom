@@ -16,4 +16,9 @@ body #bg {
   position: absolute;
   z-index: -1;
 }
+
+body header a {
+  color: white;
+  text-decoration: none;
+}
 /*# sourceMappingURL=style.css.map */
